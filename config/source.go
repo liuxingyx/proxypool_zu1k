@@ -1,6 +1,6 @@
 package config
 
-import "github.com/liuxingyx/zu1kProxypool/pkg/tool"
+import "github.com/liuxingyx/proxypool_zu1k/pkg/tool"
 
 type Source struct {
 	Type    string       `json:"type" yaml:"type"`

@@ -7,11 +7,11 @@ import (
 	_ "net/http/pprof"
 	"os"
 
-	"github.com/liuxingyx/zu1kProxypool/api"
-	"github.com/liuxingyx/zu1kProxypool/internal/app"
-	"github.com/liuxingyx/zu1kProxypool/internal/cron"
-	"github.com/liuxingyx/zu1kProxypool/internal/database"
-	"github.com/liuxingyx/zu1kProxypool/pkg/proxy"
+	"github.com/liuxingyx/proxypool_zu1k/api"
+	"github.com/liuxingyx/proxypool_zu1k/internal/app"
+	"github.com/liuxingyx/proxypool_zu1k/internal/cron"
+	"github.com/liuxingyx/proxypool_zu1k/internal/database"
+	"github.com/liuxingyx/proxypool_zu1k/pkg/proxy"
 )
 
 var configFilePath = ""

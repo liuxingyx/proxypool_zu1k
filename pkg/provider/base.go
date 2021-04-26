@@ -3,7 +3,7 @@ package provider
 import (
 	"strings"
 
-	"github.com/liuxingyx/zu1kProxypool/pkg/proxy"
+	"github.com/liuxingyx/proxypool_zu1k/pkg/proxy"
 )
 
 type Provider interface {

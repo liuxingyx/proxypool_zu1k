@@ -5,14 +5,14 @@
 <h5 align="center">自动抓取tg频道、订阅地址、公开互联网上的ss、ssr、vmess、trojan节点信息，聚合去重测试可用性后提供节点列表</h5>
 
 <p align="center">
-  <a href="https://github.com/liuxingyx/zu1kProxypool/actions">
-    <img src="https://img.shields.io/github/workflow/status/liuxingyx/zu1kProxypool/Go?style=flat-square" alt="Github Actions">
+  <a href="https://github.com/liuxingyx/proxypool_zu1k/actions">
+    <img src="https://img.shields.io/github/workflow/status/liuxingyx/proxypool_zu1k/Go?style=flat-square" alt="Github Actions">
   </a>
-  <a href="https://goreportcard.com/report/github.com/liuxingyx/zu1kProxypool">
-    <img src="https://goreportcard.com/badge/github.com/liuxingyx/zu1kProxypool?style=flat-square">
+  <a href="https://goreportcard.com/report/github.com/liuxingyx/proxypool_zu1k">
+    <img src="https://goreportcard.com/badge/github.com/liuxingyx/proxypool_zu1k?style=flat-square">
   </a>
-  <a href="https://github.com/liuxingyx/zu1kProxypool/releases">
-    <img src="https://img.shields.io/github/release/liuxingyx/zu1kProxypool/all.svg?style=flat-square">
+  <a href="https://github.com/liuxingyx/proxypool_zu1k/releases">
+    <img src="https://img.shields.io/github/release/liuxingyx/proxypool_zu1k/all.svg?style=flat-square">
   </a>
 </p>
 
@@ -46,21 +46,21 @@
 需要安装Golang
 
 ```sh
-$ go get -u -v github.com/liuxingyx/zu1kProxypool
+$ go get -u -v github.com/liuxingyx/proxypool_zu1k
 ```
 
 ### 下载预编译程序
 
-从这里下载预编译好的程序 [release](https://github.com/liuxingyx/zu1kProxypool/releases)
+从这里下载预编译好的程序 [release](https://github.com/liuxingyx/proxypool_zu1k/releases)
 
 ### 使用docker
 
 ```sh
 docker login
-docker build -t docker.pkg.github.com/liuxingyx/zu1kProxypool/proxypool:latest .
-docker push docker.pkg.github.com/liuxingyx/zu1kProxypool/proxypool:latest
-docker pull docker.pkg.github.com/liuxingyx/zu1kProxypool/proxypool:latest
-docker run -ti -d --name proxypool -p 80:80 docker.pkg.github.com/liuxingyx/zu1kProxypool/proxypool
+docker build -t docker.pkg.github.com/liuxingyx/proxypool_zu1k/proxypool:latest .
+docker push docker.pkg.github.com/liuxingyx/proxypool_zu1k/proxypool:latest
+docker pull docker.pkg.github.com/liuxingyx/proxypool_zu1k/proxypool:latest
+docker run -ti -d --name proxypool -p 80:80 docker.pkg.github.com/liuxingyx/proxypool_zu1k/proxypool
 docker tag 2691de18fcc2 liuxingyx/pooxypool:latest
 docker tag 2691de18fcc2 liuxingyx/proxypool:latest
 docker push liuxingyx/proxypool:latest 
